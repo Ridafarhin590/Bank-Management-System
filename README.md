@@ -7,6 +7,11 @@ BankFlow is a full-stack Bank Management System built using Spring Boot, React.j
 
 The application provides secure customer authentication, account management, deposits, withdrawals, money transfers, transaction history, customer profiles, and admin management.
 
+<p align="center">
+  <img src="assets/bankflow-home.png" alt="BankFlow Banking Management System" width="100%">
+</p>
+
+
 ---
 
 ## 🌐 Live Demo
