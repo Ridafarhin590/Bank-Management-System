@@ -1,13 +1,12 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://bank-management-system-dyq8.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
 });
 
-// Automatically attach JWT token to protected requests
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem("token");
@@ -18,9 +17,7 @@ api.interceptors.request.use(
 
     return config;
   },
-  (error) => {
-    return Promise.reject(error);
-  }
+  (error) => Promise.reject(error)
 );
 
 export default api;
