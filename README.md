@@ -392,13 +392,16 @@ Stores:
 
 # 📁 Backend Architecture
 
+The backend follows a layered architecture.
+
+```text
 bank-management-system
 │
 ├── src
 │   └── main
 │       └── java
 │           └── com.bank.bankmanagementsystem
-│
+│               │
 │               ├── config
 │               │   └── CorsConfig.java
 │               │
@@ -454,11 +457,13 @@ bank-management-system
 ├── pom.xml
 ├── Dockerfile
 └── application.properties
+```
 
 ---
 
 # 🎨 Frontend Architecture
 
+```text
 frontend
 │
 ├── src
@@ -482,8 +487,7 @@ frontend
 │
 ├── package.json
 └── vite.config.js
-
----
+```
 
 # 📦 DTOs
 
@@ -854,13 +858,19 @@ See the LICENSE file for more information.
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
-## Rida Farhin
+### Rida Farhin
+
+**MCA Gold Medalist 🥇 | Aspiring Software Engineer | Full Stack Developer**
 
 Master of Computer Applications (MCA)
 
-Aspiring Software Engineer | Full Stack Developer
+🏆 **MCA Gold Medalist / University Topper**
+
+GitHub: https://github.com/Ridafarhin590
+
+Email: ridafarhin59@gmail.com
 
 ### GitHub
 
