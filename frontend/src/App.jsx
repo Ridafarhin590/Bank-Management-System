@@ -10,6 +10,7 @@ import Deposit from "./pages/Deposit";
 import Withdraw from "./pages/Withdraw";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
+import Admin from "./pages/Admin";
 
 import "./App.css";
 
@@ -67,6 +68,11 @@ function App() {
         <Route
           path="/account/settings"
           element={<Settings />}
+        />
+
+        <Route
+          path="/admin"
+          element={<Admin />} 
         />
 
       </Routes>
