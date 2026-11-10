@@ -108,3 +108,5 @@ public class Account {
         this.customer = customer;
     }
 }
+
+//mapped to database tables

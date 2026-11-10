@@ -11,3 +11,5 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
 
     boolean existsByAccountNumber(String accountNumber);
 }
+
+//database access layer
